@@ -1,0 +1,107 @@
+body{
+    font-family: 'Lato', sans-serif;
+}
+/* header section */
+header{
+    background-color: rgba(229, 84, 115, 0.10);
+    /* width: 1900px; */
+    height: 830px;
+    margin-top: 0px;
+
+}
+nav{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding:30px 30px 0px 150px;
+}
+.nav-title{
+    color: #272727;
+    font-size: 80px;
+    font-weight: 800;
+    font-style: normal;
+    width: 708px;
+    margin-bottom: 32px;
+}
+.nav-details{
+    color:#272727;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 32px;
+}
+.primary-button{
+    border-style: none;
+    border-radius: 8px;
+    color:#ffffff;
+    background: #E55473;
+    padding: 20px 40px;
+}
+.nav-picture{
+    display: flex;
+    width: 650px;
+    height: 800px;
+}
+/* Main section */
+/* section 01 */
+.sec-title{
+    margin-top: 250px;
+    margin-bottom: 20px;
+    color: #272727;
+    text-align: center;
+    font-size: 40px;
+    font-weight: 800;
+}
+.sec-detail{
+    color: #272727;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-bottom: 40px;
+}
+.bonus-flower{
+    display: flex;
+    justify-content: center;
+
+}
+.list1{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(167, 33, 98, 0.15);
+    padding: 110px 78px 0px 76px;
+    margin: 1px 0px 10px 0px;
+}
+.list2{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 117px 47px 51px 47px;
+    margin: 1px 24px 10px 24px;
+}
+.list3{
+    border-radius: 300px 300px 0px 0px;
+    background: rgba(5, 151, 160, 0.15);
+    padding: 67px 75px 0px 75px;
+    margin: 1px 24px 10px 24px;
+}
+.caption{
+    color: #272727;
+    text-align: center;
+    font-size: 24px;
+    font-weight: 700;
+    text-decoration-line: underline;
+}
+/* Section 02 */
+.pink{
+    color: #E55473;
+}
+.centering{
+    text-align: center;
+}
+.offer{
+    margin-top: 125px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 8px;
+    background: rgba(229, 84, 115, 0.05);
+    /* width: 1922px; */
+    height: 620px;
+}
